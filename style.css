@@ -108,6 +108,9 @@ form input,textarea{
         width: 70%;
         border-radius: 20px;
     }
+  .cards{
+    display:block;
+  }
     form input,label,textarea{
         margin-left: 100px;
     }
