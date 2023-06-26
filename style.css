@@ -18,6 +18,7 @@ body{
 .display-6{
     margin-top: -285px;
     margin-right: 550px;
+ 
 }
 .btn1 button{
     color: #fff;
@@ -57,6 +58,15 @@ body{
 }
 .cards:hover{
     background-color: rgb(253, 47, 47);
+   
+}
+#preload{
+    background: #000 url(loading.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 form input,label,textarea{
     margin-left: 200px;
@@ -72,6 +82,55 @@ form input,textarea{
 .logos{
     width: 20%;
 }
+.al{
+    margin-right: 160px;
+}
+.name1 {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  
+  .name1:first-of-type {    /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+    animation: showup 7s infinite;
+  }
+  
+  .name1:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+  }
+  
+  .name1:last-of-type span {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-800px; }
+      20% { margin-left:-800px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+  
+
 
 @media screen and (max-width:200px) {
     .text-center img{
@@ -100,27 +159,29 @@ form input,textarea{
     .display-6{
         margin-top: 0px;
         margin-right:0px;
+        display: inline-block;
     }
     .text-center img{
         margin-bottom: -90px;
+    }
+    #preload{
+
+        background-size: 30%;
+    }
+    .al{
+        margin-right: 0px;
     }
     .lap img{
         width: 70%;
         border-radius: 20px;
     }
-  .cards{
-    display:block;
-    margin-right:25px;
-  }
-  form input,label,textarea{
-    margin-left: 90px;
-}
     form input,label,textarea{
-        margin-left: 10px;
+        margin-left: 100px;
     }
     form input,textarea{
         width: 300px;
         padding: 8px;
+        margin-left: 100px;
     }
     .logos{
         width: 40%;
