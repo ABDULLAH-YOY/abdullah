@@ -115,7 +115,7 @@ form input,textarea{
     margin-left: 10px;
 }
     form input,label,textarea{
-        margin-left: 10px;
+        margin-left: 1px;
     }
     form input,textarea{
         width: 300px;
