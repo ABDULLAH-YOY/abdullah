@@ -111,6 +111,9 @@ form input,textarea{
   .cards{
     display:block;
   }
+  form input,label,textarea{
+    margin-left: 10px;
+}
     form input,label,textarea{
         margin-left: 100px;
     }
