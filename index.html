@@ -38,6 +38,7 @@
     </head>
     <link rel="stylesheet" href="style.css">
   <body>
+    <div id="preload"> </div>
    <section id='home'>
     <div class="text-center">
         <img  src="20230511_080603.png" class="rounded" alt="" style="width: 19%;">
@@ -46,7 +47,7 @@
 
     <br><br><br><br>
     <center>
-  <h1 class="display-6" style="font-family: 'Poppins', sans-serif;color: #fff;">I'm Abdullah Al Nirob</h1>
+  <h1 class="display-6" style="font-family: 'Poppins', sans-serif;color: #fff;"><div class="name1"></div><div class="name1"><span class="al"> Abdullah Al Nirob</span></div></h1>
   <!-- <h2 class="display-6" style="font-family: 'Poppins', sans-serif;color: #fff;">Web Developer</h2> -->
     </center>
 
@@ -118,5 +119,11 @@ action="https://formspree.io/f/xgebrdeo"
   <center>
     <p style="color: white;">&copy Plex Media All Terms</p>
   </center>
+  <script>
+    var loader =document.getElementById("preload");
+    window.addEventListener("load",function(){
+      loader.style.display ="none";
+    })
+  </script>
 </body>
 </html>
