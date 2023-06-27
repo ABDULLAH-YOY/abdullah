@@ -177,19 +177,19 @@ form input,textarea{
         border-radius: 20px;
     }
     form input,label,textarea{
-        margin-left: 40px;
+        margin-left: 35px;
     }
   .cards{
-    margin-right:20px;
+    margin-right:40px;
   }
     form input{
         width: 300px;
         padding: 8px;
-        margin-left: 40px;
+        margin-left: 35px;
     }
    form textarea{
      margin-left:40px;
-     width:150px;
+     width:200px;
    }
     .logos{
         width: 40%;
