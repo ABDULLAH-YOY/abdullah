@@ -179,14 +179,18 @@ form input,textarea{
     form input,label,textarea{
         margin-left: 40px;
     }
+   form input,textarea
   .cards{
     margin-right:20px;
   }
-    form input,textarea{
+    form input{
         width: 300px;
         padding: 8px;
         margin-left: 100px;
     }
+   form textarea{
+     margin-left:40px;
+   }
     .logos{
         width: 40%;
     }
