@@ -177,8 +177,11 @@ form input,textarea{
         border-radius: 20px;
     }
     form input,label,textarea{
-        margin-left: 50px;
+        margin-left: 40px;
     }
+  .cards{
+    margin-right:20px;
+  }
     form input,textarea{
         width: 300px;
         padding: 8px;
